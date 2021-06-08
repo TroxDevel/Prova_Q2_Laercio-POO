@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<Prova_Q2_Laercio_POO.Models.Cliente_Info>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Administração de clientes";
 }
 
-<h2>Index</h2>
+<h2>Clientes</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Novo Cliente", "Create")
 </p>
 <table class="table">
     <tr>
@@ -41,9 +41,9 @@
             @Html.DisplayFor(modelItem => item.cli_Estado)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.cli_Id_Cliente }) |
-            @Html.ActionLink("Details", "Details", new { id=item.cli_Id_Cliente }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.cli_Id_Cliente })
+            @Html.ActionLink("Editar", "Edit", new { id=item.cli_Id_Cliente }) |
+            @Html.ActionLink("Detalhes", "Details", new { id=item.cli_Id_Cliente }) |
+            @Html.ActionLink("Excluir", "Delete", new { id=item.cli_Id_Cliente })
         </td>
     </tr>
 }

@@ -26,5 +26,12 @@ namespace Prova_Q2_Laercio_POO.Controllers
 
             return View();
         }
+
+        public ActionResult Clientes()
+        {
+            ViewBag.Message = "Administração de clientes.";
+
+            return View();
+        }
     }
 }
