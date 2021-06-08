@@ -10,7 +10,7 @@ Base de dados nomeada como - CLIENTES
 
 Procedimentos:
   Em: _Layout.cshtml 
-      Botão Clientes adicionado  "Clientes", "Index", "Cliente_Info"
+      Botão Clientes adicionado  - "Clientes", "Index", "Cliente_Info"
       
       Ordem de leitura: Nome do Botão "Clientes"
       
