@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CLIENTESModelStoreContainer" CdmEntityContainer="CLIENTESEntities">
+    <EntitySetMapping Name="Cliente_Info">
+      <EntityTypeMapping TypeName="CLIENTESModel.Cliente_Info">
+        <MappingFragment StoreEntitySet="Cliente_Info">
+          <ScalarProperty Name="cli_Id_Cliente" ColumnName="cli_Id_Cliente" />
+          <ScalarProperty Name="cli_NomeCliente" ColumnName="cli_NomeCliente" />
+          <ScalarProperty Name="cli_Celular" ColumnName="cli_Celular" />
+          <ScalarProperty Name="cli_Cidade" ColumnName="cli_Cidade" />
+          <ScalarProperty Name="cli_Estado" ColumnName="cli_Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
