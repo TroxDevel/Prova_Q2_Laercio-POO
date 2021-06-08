@@ -10,7 +10,7 @@ Base de dados nomeada como - CLIENTES
 
 Procedimentos:
   Em: _Layout.cshtml 
-      Botão Clientes adicionado  <li>@Html.ActionLink("Clientes", "Index", "Cliente_Info")</li>
+      Botão Clientes adicionado  " <li>@Html.ActionLink("Clientes", "Index", "Cliente_Info")</li> "
       
       Ordem de leitura: Nome do Botão "Clientes"
       
